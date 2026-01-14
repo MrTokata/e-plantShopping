@@ -418,7 +418,7 @@ return (
                                                 <div className="product-description">
                                                     {plant.description}
                                                 </div>{" "}
-                                                <div className="product-cost">${plant.cost}</div>{" "}
+                                                <div className="product-cost">{plant.cost}</div>{" "}
                                                 <button
                                                     className="product-button"
                                                     onClick={() => handleAddToCart(plant)}
